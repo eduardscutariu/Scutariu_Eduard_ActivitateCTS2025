@@ -1,6 +1,6 @@
 package ro.cts.Readers;
 
-import ro.cts.Clase.Aplicant;
+import ro.cts.Agentii.Aplicant;
 
 import java.io.FileNotFoundException;
 import java.util.List;

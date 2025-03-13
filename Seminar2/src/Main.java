@@ -1,8 +1,6 @@
-import ro.cts.Clase.Aplicant;
+import ro.cts.Agentii.Aplicant;
 import ro.cts.Readers.AngajatReader;
 import ro.cts.Readers.AplicantReader;
-import ro.cts.Readers.ElevReader;
-import ro.cts.Readers.StudentReader;
 
 import java.io.FileNotFoundException;
 import java.util.List;

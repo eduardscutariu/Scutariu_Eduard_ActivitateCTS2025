@@ -1,4 +1,4 @@
-package ro.cts.Clase;
+package ro.cts.Agentii;
 
 public abstract class Aplicant{
 	protected String nume;
