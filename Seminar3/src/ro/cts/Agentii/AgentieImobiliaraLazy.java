@@ -14,8 +14,8 @@ public class AgentieImobiliaraLazy {
         this.cifraAfaceri = cifraAfaceri;
     }
 
-    public static AgentieImobiliaraLazy getInstanceLazy(String nume, int nrAnunturi, String site, float cifraAfaceri){
-        if(agentieImobiliaraLazy==null){
+    public synchronized static AgentieImobiliaraLazy getInstanceLazy(String nume, int nrAnunturi, String site, float cifraAfaceri){
+        if(agentieImobiliaraLazy==null){// la eager nu apare problema de threading
             agentieImobiliaraLazy= new AgentieImobiliaraLazy(nume,nrAnunturi,site,cifraAfaceri);
         }
         return agentieImobiliaraLazy;
