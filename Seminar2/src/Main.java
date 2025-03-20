@@ -1,6 +1,6 @@
-import ro.cts.Agentii.Aplicant;
-import ro.cts.Readers.AngajatReader;
-import ro.cts.Readers.AplicantReader;
+import ro.cts.SimpleFactory.Agentii.Aplicant;
+import ro.cts.SimpleFactory.Readers.AngajatReader;
+import ro.cts.SimpleFactory.Readers.AplicantReader;
 
 import java.io.FileNotFoundException;
 import java.util.List;
