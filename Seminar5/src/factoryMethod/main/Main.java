@@ -21,5 +21,6 @@ public class Main {
 
         Angajat secretar = factoryPersonalNonMedical.creareAngajat(TipPersonalNonMedical.SECRETAR, "secretar", 6000);
 
+        System.out.println(portar.toString());
     }
 }

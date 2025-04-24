@@ -8,4 +8,12 @@ public class Portar extends Angajat{
         super(nume, salariu);
         this.vechime = vechime;
     }
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("Portar{");
+        sb.append("vechime=").append(vechime);
+        sb.append('}');
+        return sb.toString();
+    }
 }
