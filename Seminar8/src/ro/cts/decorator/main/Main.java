@@ -10,11 +10,15 @@ public class Main {
         Nota nota1=new NotaDePlata(100.5f);
         nota1.printare();
         Nota notaDecorataRevelion=new NotaDePlataRevelion(nota1);
+        System.out.println("\n");
+
         notaDecorataRevelion.printare();
 
+        System.out.println("\n");
         Nota notaDecorataCraciun=new NotaDePlataCraciun(nota1);
         Nota nota2=new NotaDePlataCraciun(notaDecorataRevelion);
         nota2.printare();
+        System.out.println("\n");
         notaDecorataCraciun.printare();
     }
 }

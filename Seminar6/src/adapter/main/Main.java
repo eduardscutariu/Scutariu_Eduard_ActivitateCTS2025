@@ -13,12 +13,12 @@ public class Main {
         vindeMedicament(medicamentFarmacie);
         MedicamentSpital medicamentSpital=new MedicamentSpital("paracetamol",5);
 //        vindeMedicament(medicamentSpital); aici intervine rolul adaptorului
-        AdaptorMedicament adaptor=new AdaptorMedicament(medicamentSpital);
+        AdaptorMedicament medicamentAdaptat=new AdaptorMedicament(medicamentSpital);
 
-        vindeMedicament(adaptor);
+        vindeMedicament(medicamentAdaptat);
 
 
 
-        adaptor.cumparaMedicament();
+        medicamentAdaptat.cumparaMedicament();
     }
 }
