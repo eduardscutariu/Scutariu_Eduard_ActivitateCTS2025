@@ -11,9 +11,8 @@ public class Main {
         rezervare.rezerva("Gigel",5,15);
 
         IRezervare proxyNumarPersoane= new ProxyNumarPersoane(rezervare);
-        proxyNumarPersoane.rezerva("Gigu",3,12);
-
+        proxyNumarPersoane.rezerva("Gigu",5,12);
         IRezervare proxyOra= new ProxyOra(proxyNumarPersoane);
-        proxyOra.rezerva("Popescu",6,18);
+        proxyOra.rezerva("Popescu",6,12);
     }
 }
